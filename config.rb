@@ -57,6 +57,7 @@ activate :blog do |blog|
   blog.prefix = "posts"
   blog.permalink = ":year/:month/:day/:title.html"
   blog.sources = ":year-:month-:day-:title.html"
+  blog.layout = "blog"
 end
 
 # Build-specific configuration
