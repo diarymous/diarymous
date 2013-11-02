@@ -10,6 +10,9 @@
 </head>
 <body>
   <div class="content">
+    <div class="mbm">
+      <%= link_to "&larr; Назад ко всем постам", "/"%>
+    </div>
     <h2><%= current_article.title%></h2>
     <h3><%= current_article.data.subtitle%></h3>
     <%= yield%>
