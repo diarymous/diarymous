@@ -6,7 +6,7 @@
 
   <title><%= current_page.data.title || "Анонимные заметки" %></title>
   <meta name="description" content="<%= current_article.data.meta_description || ""%>"/>
-  <meta name="description" content="<%= current_article.data.meta_keywords || ""%>"/>
+  <meta name="keywords" content="<%= current_article.data.meta_keywords || ""%>"/>
   <%= stylesheet_link_tag "applepie", "application" %>
   <%= javascript_include_tag  "all" %>
 </head>
